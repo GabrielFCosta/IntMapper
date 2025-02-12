@@ -1,0 +1,1 @@
+browser-sync start  --no-notify --server --directory --files "*"
