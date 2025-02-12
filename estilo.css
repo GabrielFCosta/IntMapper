@@ -1,0 +1,64 @@
+	@font-face {
+		font-family: 'membra';
+		src: url('fonts/membra.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'recharge';
+		src: url('fonts/recharge.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'blox2';
+		src: url('fonts/blox2.ttf') format('truetype');
+	}
+	.container{
+		display: flex;	
+		flex-direction: column;
+		align-items: center;
+		width: fit-content;
+		margin: auto;
+	}
+	#menu {
+		padding: 10%;
+		gap: 10px;
+	}
+	#mural {
+		border-width: 2px; 
+		border-style: solid; 
+		border-color: rgb(30, 69, 113); 
+		border-radius: 10px;
+		overflow: hidden;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+	.botao{
+		background:linear-gradient(to bottom, rgb(85, 160, 204) 0%, rgb(30, 69, 113) 80%);
+		border-radius: 12px;
+	}
+	input[type=button]{
+		border:1px solid rgb(11, 14, 7);
+		cursor:pointer;
+		color:rgb(30, 69, 113);
+		font-family:'recharge';
+		font-size:21px;
+		padding: 18px;
+		box-shadow: 0 2px rgb(10, 8, 43);
+		margin: 10px;
+		width: 120%;
+	} 
+	input[type=button]:active{
+		box-shadow: 0 0px;
+		transform: translateY(2px);
+	}
+	body{
+		background-image:  url('[2]_(9,21)_(7,24)_(3,24)_[2]_(384,274).png'); 
+		background-color: rgb(30, 69, 113); 
+		background-repeat: repeat;
+	}
+	h{
+		color:rgb(85, 160, 204);
+		font-family:'blox2';
+		font-size:32px;
+		padding: 18px;
+	}
+}
+
