@@ -1,8 +1,4 @@
 	@font-face {
-		font-family: 'membra';
-		src: url('fonts/membra.ttf') format('truetype');
-	}
-	@font-face {
 		font-family: 'recharge';
 		src: url('fonts/recharge.ttf') format('truetype');
 	}
@@ -19,9 +15,9 @@
 	}
 	#menu {
 		padding: 10%;
-		gap: 10px;
+		gap: 20px;
 	}
-	#mural {
+	#painel {
 		border-width: 2px; 
 		border-style: solid; 
 		border-color: rgb(30, 69, 113); 
@@ -43,22 +39,24 @@
 		padding: 18px;
 		box-shadow: 0 2px rgb(10, 8, 43);
 		margin: 10px;
-		width: 120%;
+		width: 100%;
 	} 
 	input[type=button]:active{
 		box-shadow: 0 0px;
 		transform: translateY(2px);
 	}
 	body{
-		background-image:  url('[2]_(9,21)_(7,24)_(3,24)_[2]_(384,274).png'); 
-		background-color: rgb(30, 69, 113); 
+		background-image: url("wallpaper/[2]_(9,21)_(7,24)_(3,24)_[2]_(384,274).png"); 
+		background-color: rgb(0, 0, 0); 
 		background-repeat: repeat;
 	}
 	h{
 		color:rgb(85, 160, 204);
 		font-family:'blox2';
-		font-size:32px;
+		font-size: 32px;
 		padding: 18px;
 	}
+	img {
+		display: block
+	}
 }
-
