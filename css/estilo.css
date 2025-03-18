@@ -9,18 +9,16 @@
 	.container{
 		display: flex;	
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
 		width: fit-content;
+		padding: 0;
 		margin: auto;
-	}
-	#menu {
-		padding: 2%;
 		gap: 20px;
 	}
 	.botao{
 		background:linear-gradient(to bottom, rgb(85, 160, 204) 0%, rgb(30, 69, 113) 80%);
 		border-radius: 12px;
+		border:1px solid rgb(11, 14, 7);
 		-webkit-tap-highlight-color: transparent;
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;
@@ -29,7 +27,6 @@
 		user-select: none;
 	}
 	input[type=button]{
-		border:1px solid rgb(11, 14, 7);
 		cursor:pointer;
 		color:rgb(20, 59, 103);
 		font-family:'recharge';
@@ -52,7 +49,6 @@
 		color:rgb(85, 160, 204);
 		font-family:'blox2';
 		font-size: 32px;
-		padding: 18px;
 	}
 	img {
 		display: block;
@@ -62,7 +58,6 @@
 		border-radius: 12px;
 	}
 	.panel {
-		width: 60%;
+		width: 70%;
 		height: auto;
-		margin-bottom: 10px;
 	}

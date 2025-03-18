@@ -1,2 +1,2 @@
-[Página de links pessoais](https://gabrielfcosta.github.io/IntMapper/)
+[Personal Links Page](https://gabrielfcosta.github.io/IntMapper/)
 
